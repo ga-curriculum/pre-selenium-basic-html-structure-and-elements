@@ -6,7 +6,7 @@
 
 ## About
 
-This module introduces learners to the structure and anatomy of HTML documents through hands-on exploration using real files and browser tools. Students will create a local project in VS Code, paste in provided HTML snippets, and open them in a browser to inspect and analyze the structure using Chrome DevTools. The focus is on building practical fluency in recognizing and interpreting common HTML elements—such as <div>, <span>, <input>, <button>, <form>, and <a>—and understanding how they are organized within the DOM. The goal is to build fluency in recognizing HTML structures, so learners can confidently locate elements during test automation.
+This module introduces learners to the structure and anatomy of HTML documents through hands-on exploration using real files and browser tools. Students will create a local project in VS Code, paste in provided HTML snippets, and open them in a browser to inspect and analyze the structure using Chrome DevTools. The focus is on building practical fluency in recognizing and interpreting common HTML elements—such as `<div>`, `<span>`, `<input>`, `<button>`, `<form>`, and `<a>`—and understanding how they are organized within the DOM. The goal is to build fluency in recognizing HTML structures, so learners can confidently locate elements during test automation.
 
 ## Content
 
