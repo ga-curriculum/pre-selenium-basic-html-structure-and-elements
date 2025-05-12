@@ -94,7 +94,7 @@ Update the `<body>` of your HTML file to:
 
 > 💡 Unlike terminal output from a Python script, you’re now seeing the _live_ result of your HTML code rendered visually. If you make changes, just save the file and refresh the browser window.
 
-<img src="./assets/hello-world.png" alt="Hello World in the browser" width="400">
+<img src="./assets/hello-world.png" alt="Hello World in the browser" width="600">
 
 ## Why this matters for automation
 

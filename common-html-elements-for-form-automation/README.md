@@ -11,7 +11,7 @@ When automating browser actions, it is important to recognize the core building 
 
 > 💡 Building HTML fluency helps you quickly identify which elements to automate, making your test scripts more robust and your troubleshooting faster.
 
-<img src="./assets/nesting.png" alt="Nested HTML Elements" width="400">
+<img src="./assets/nesting.png" alt="Nested HTML Elements" width="600">
 
 ## Overview of block-level elements
 
@@ -96,8 +96,7 @@ The `<input>` element collects user data. Its behavior is controlled by the `typ
 **Example:** Text and password inputs
 
 ```html
-<input type="text" name="username" />
-<input type="password" name="password" />
+<input type="text" name="username" /> <input type="password" name="password" />
 ```
 
 | `<input>` Type | Common Use                                 | Real-World Scenario                         |

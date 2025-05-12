@@ -17,7 +17,7 @@ A basic HTML document includes three critical building blocks:
 - The root `<html>` tag, containing all the content and structure.
 - Two major sections inside `<html>`: `<head>` for meta-information, and `<body>` for all visible content.
 
-<img src="./assets/html-page-structure.png" alt="HTML Doc Structure" width="400">
+<img src="./assets/html-page-structure.png" alt="HTML Doc Structure" width="600">
 
 <br>
 
@@ -78,7 +78,7 @@ Example:
 
 ## Introduction to the `<body>` section and its role in displaying content
 
-<img src="./assets/tree.png" alt="Body Content" width="400">
+<img src="./assets/tree.png" alt="Body Content" width="600">
 
 The `<body>` section holds everything users see and interact with: headings, paragraphs, buttons, forms, navigation links, and more. In your automation workflow, this is where you will spend most of your time.
 
@@ -92,7 +92,7 @@ The `<body>` section holds everything users see and interact with: headings, par
 
 When a browser loads your web page, everything inside `<body>` is displayed and can be interacted with—making it the main focus for test automation using Selenium or other tools.
 
-<img src="./assets/welcome-to-automation.png" alt="Body Content" width="400">
+<img src="./assets/welcome-to-automation.png" alt="Body Content" width="600">
 
 > 💡 Most element selection, clicking, and form filling for browser automation targets elements within `<body>`.
 
