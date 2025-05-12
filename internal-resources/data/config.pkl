@@ -12,9 +12,9 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "Pre-Selenium: Basic HTML Structure & Elements"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "pre-selenium-basic-html-structure-and-elements"
   type = "Lesson"
 }
 
@@ -25,12 +25,21 @@ courses {
     microlessons {
       // Add microlessons here, in the order they should be delivered
       mls.setup
-      mls.concepts
-      mls.microlesson01
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.microlesson02) {
-        type = "Level Up content"
-      }
+      mls.anatomyOfAnHtmlDocument
+      mls.commonHtmlElementsForTestAutomation
+      mls.exploringHtmlWithChromeDevtools
+      mls.domStructureAndRelationships
+    }
+  }
+  new {
+    name = "ptr"
+    microlessons {
+      mls.setup
+      mls.anatomyOfAnHtmlDocument
+      mls.commonHtmlElementsForTestAutomation
+      mls.exploringHtmlWithChromeDevtools
+      mls.domStructureAndRelationships
     }
   }
 }
+

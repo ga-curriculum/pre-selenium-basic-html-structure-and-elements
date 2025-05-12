@@ -9,23 +9,31 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+anatomyOfAnHtmlDocument = new Template.Microlesson {
+  friendlyName = "Anatomy of an HTML Document"
+  dirName = "anatomy-of-an-html-document"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+commonHtmlElementsForTestAutomation = new Template.Microlesson {
+  friendlyName = "Common HTML elements for test automation"
+  dirName = "common-html-elements-for-form-automation"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+exploringHtmlWithChromeDevtools = new Template.Microlesson {
+  friendlyName = "Exploring HTML with Chrome DevTools"
+  dirName = "exploring-html-with-chrome-devtools"
   type = "Content"
   videoUrl = ""
 }
+
+domStructureAndRelationships = new Template.Microlesson {
+  friendlyName = "DOM Structure and Relationships"
+  dirName = "dom-structure-and-relationships"
+  type = "Content"
+  videoUrl = ""
+}
+
