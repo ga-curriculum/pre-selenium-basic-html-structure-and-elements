@@ -11,9 +11,7 @@ When automating browser actions, it is important to recognize the core building 
 
 > 💡 Building HTML fluency helps you quickly identify which elements to automate, making your test scripts more robust and your troubleshooting faster.
 
-
 <img src="./assets/nesting.png" alt="Nested HTML Elements" width="400">
-
 
 ## Overview of block-level elements
 
@@ -95,18 +93,11 @@ The `<input>` element collects user data. Its behavior is controlled by the `typ
 - `name`: Acts as the dictionary key, labeling the data when submitted.
 - `value`: Holds the current or initial value.
 
-Common types include:
-
-- `type="text"` – for plain text entry
-- `type="password"` – for secret (obscured) text
-- `type="checkbox"` – for binary choices
-- `type="radio"` – for selecting one of several options
-- `type="email"` or `type="number"` – for specific data entry
-
 **Example:** Text and password inputs
 
 ```html
-<input type="text" name="username" /> <input type="password" name="password" />
+<input type="text" name="username" />
+<input type="password" name="password" />
 ```
 
 | `<input>` Type | Common Use                                 | Real-World Scenario                         |
@@ -206,7 +197,7 @@ Let’s look at a realistic example that brings these elements together as you m
 3. **Open it in your browser**
 
    - In VS Code’s Explorer pane, right-click <code class="filepath">elements-practice.html</code> and choose **Reveal in File Explorer** (Windows), **Reveal in Finder** (Mac), or your default file browser.
-   - Double-click the file to open in Chrome, Firefox, or your preferred browser.
+   - Double-click the file to open in Chrome
 
 4. **Inspect elements with DevTools**
 
@@ -219,11 +210,6 @@ Let’s look at a realistic example that brings these elements together as you m
    - What content or elements does it contain?
    - What purpose does it serve on this page?
    - Does it use any key attributes, such as `type`, `name`, or `href`?
-
-6. **Bonus (optional): Experiment in DevTools**
-
-   - Try editing an element's attribute directly in the browser. For example, change the text of a `<button>`, or update a link’s `href` to a different address. Refresh the page to reset the changes.
-
 
 <div class="activity discussion">
   <h2 class="title">Automating a Login Process</h2>

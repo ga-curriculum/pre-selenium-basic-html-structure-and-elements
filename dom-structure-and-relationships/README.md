@@ -13,9 +13,9 @@ If you have experience building APIs with Python and FastAPI, you already know h
 
 ### Understanding the DOM Tree
 
-- The entire webpage is represented by the <html> element.
-- It contains two main sections: the <head> (metadata, title, styles) and the <body> (visible content).
-- Within the <body>, elements are organized hierarchically—containers like <div> may include other elements such as <form>, <button>, or <input>.
+- The entire webpage is represented by the `<html>` element.
+- It contains two main sections: the `<head>` (metadata, title, styles) and the `<body>` (visible content).
+- Within the `<body>`, elements are organized hierarchically—containers like `<div>` may include other elements such as `<form>`, `<button>`, or `<input>`.
 - Elements that share the same parent are called siblings. A single parent element can have multiple child elements, and each child can contain its own nested elements, creating a tree-like structure.
 
 In HTML:
@@ -75,7 +75,6 @@ If you have ever nested functions within other functions, or kept key data in a 
   ```
 
   If you try to automate filling in the _user_ field and clicking "Login," knowing these elements are grouped inside a `<form>` helps you reliably target them.
-
 
 ### Mapping visual placement to the DOM: Practical analysis
 

@@ -98,7 +98,7 @@ When a browser loads your web page, everything inside `<body>` is displayed and 
 
 <div class="activity solo-exercise">
   <h2 class="title">Reviewing a simple HTML document</h2>
-  <span class="minutes">8 min</span>
+  <span class="minutes">5 min</span>
 </div>
 
 Now that you understand the building blocks, let’s connect theory to practice. You will explore, view, and manipulate these structures in both your code editor and browser using familiar tooling.
@@ -135,15 +135,6 @@ Now that you understand the building blocks, let’s connect theory to practice.
    - Locate `structure-demo.html` in your file explorer.
    - Double-click to open in your browser.
    - Observe the page title (from `<title>`) on the browser tab and the heading/paragraph (from `<body>`) on the page.
-
-6. **Explore with Chrome DevTools**
-
-   - Right-click anywhere on the page and select **Inspect** or **Inspect Element**.
-   - In the Elements panel, expand the `<html>`, `<head>`, and `<body>` nodes.
-   - Select each section and observe how structure in the code exactly matches the DOM tree.
-
-7. **Experiment and observe cause-and-effect**
-   - Edit the text in `<title>`, `<h1>`, or `<p>` in VS Code, save, and refresh the browser.
-   - Try editing these directly in Chrome DevTools and watch updates happen live.
+   - Practice making changes to your file, saving, and refreshing the browser page to see those changes live.
 
 > 🏆 Mastery of DOM structure and browser tools will make test automation more predictable and effective.
